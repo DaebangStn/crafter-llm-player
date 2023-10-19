@@ -1,0 +1,139 @@
+PlayWindowSlicer:
+  surrounding:
+    offsets:
+      windowInPixel:
+        x: 3
+        y: 3
+      playerInGridCounts:
+        x: 5
+        y: 4
+    grid:
+      sizeInPixel:
+        width: 66
+        height: 66
+      totalCounts:
+        width: 9
+        height: 7
+
+  inventory:
+    commonSize:
+      width: 65
+      height: 70
+
+    items:
+      health:
+        referencePoint:
+          x: 20
+          y: 470
+        isCommonSize: true
+
+      hunger:
+        referencePoint:
+          x: 91
+          y: 470
+        isCommonSize: false
+        size:
+          width: 64
+          height: 70
+
+      water:
+        referencePoint:
+          x: 145
+          y: 470
+        isCommonSize: true
+
+      energy:
+        referencePoint:
+          x: 210
+          y: 470
+        isCommonSize: false
+        size:
+          width: 75
+          height: 70
+
+      sapling:
+        referencePoint:
+          x: 285
+          y: 470
+        isCommonSize: true
+
+      wood:
+        referencePoint:
+          x: 350
+          y: 470
+        isCommonSize: true
+
+      stone:
+        referencePoint:
+          x: 415
+          y: 470
+        isCommonSize: true
+
+      coal:
+        referencePoint:
+          x: 480
+          y: 470
+        isCommonSize: true
+
+      iron:
+        referencePoint:
+          x: 540
+          y: 470
+        isCommonSize: false
+        size:
+          width: 60
+          height: 70
+
+      wood_pickaxe:
+        referencePoint:
+          x: 350
+          y: 535
+        isCommonSize: false
+        size:
+          width: 55
+          height: 65
+
+      stone_pickaxe:
+        referencePoint:
+          x: 145
+          y: 535
+        isCommonSize: false
+        size:
+          width: 75
+          height: 65
+
+      iron_pickaxe:
+        referencePoint:
+          x: 210
+          y: 535
+        isCommonSize: false
+        size:
+          width: 75
+          height: 65
+
+      wood_sword:
+        referencePoint:
+          x: 285
+          y: 535
+        isCommonSize: false
+        size:
+          width: 65
+          height: 65
+
+      stone_sword:
+        referencePoint:
+          x: 350
+          y: 535
+        isCommonSize: false
+        size:
+          width: 65
+          height: 65
+
+      iron_sword:
+        referencePoint:
+          x: 415
+          y: 535
+        isCommonSize: false
+        size:
+          width: 75
+          height: 65

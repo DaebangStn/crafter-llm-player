@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "crafter-llm-player"
+version = "0.1.0"
+description = ""
+authors = ["daebangstn <gunho1107@naver.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+numpy = "^1.25.2"
+ruamel-yaml = "^0.17.32"
+pytest = "^7.4.0"
+opencv-python = "^4.8.0.76"
+pytesseract = "^0.3.10"
+torch = "^2.0.1"
+
+[tool.pytest.ini_options]
+addopts = [
+    "--import-mode=importlib",
+]
+pythonpath = "src"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

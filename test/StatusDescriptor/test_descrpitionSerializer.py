@@ -1,0 +1,2 @@
+class TestDescriptionSerializer:
+    pass
